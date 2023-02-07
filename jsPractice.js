@@ -24,3 +24,19 @@ function evenOdd(str) {
 }
 
 evenOdd('Batch7')
+
+
+//Problem 3: Is Less or Greater than seven
+function isLGSeven(i) {
+    if(i > 7){
+        return i*2;
+    }
+    else if(i < 7) {
+        return i - 7;
+    }
+    else{
+        return 0;
+    }
+}
+
+console.log(isLGSeven(15));
