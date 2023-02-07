@@ -49,3 +49,22 @@ function findingBadData(arr) {
 }
 
 console.log(findingBadData([-4, -9, -5, -33, -55]));
+
+
+//Problem 5: Convert your gems into diamond
+let gemsToDiamond = (n1, n2, n3) => {
+    p1 = n1 * 21;
+    p2 = n2 * 32;
+    p3 = n3 * 43;
+
+    totalDiamond = p1+p2+p3;
+
+    if(totalDiamond > 2*1000) {
+        return totalDiamond - 2000;
+    }
+    else{
+        return totalDiamond;
+    }
+}
+
+console.log(gemsToDiamond(20, 200, 50));
