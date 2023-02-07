@@ -40,3 +40,12 @@ function isLGSeven(i) {
 }
 
 console.log(isLGSeven(15));
+
+
+//Problem 4: Finding Bad data
+function findingBadData(arr) {
+    const badData = arr.filter(element => element < 0)
+    return badData.length;
+}
+
+console.log(findingBadData([-4, -9, -5, -33, -55]));
