@@ -12,6 +12,15 @@ console.log(mindGame(5));
 
 
 //Problem 2: Finding even or odd
-function evenOdd() {
-    
+function evenOdd(str) {
+    len = str.length;
+
+    if(len % 2 == 0){
+        console.log("even")
+    }
+    else{
+        console.log("odd")
+    }
 }
+
+evenOdd('Batch7')
